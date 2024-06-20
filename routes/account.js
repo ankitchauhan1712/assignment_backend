@@ -6,8 +6,7 @@ const router = express.Router();
 
 // Create Account
 router.post('/', async (req, res) => {
-    try {
-        console.log("11===",req.body);
+    try {      
         const { first_name, last_name, email, phone, password, birthday } = req.body;
 
            // Input validation
