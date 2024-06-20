@@ -6,6 +6,7 @@
 
 # Installation
 Clone the repository: git clone https://github.com/your/repository.git
+Pull from main branch
 Navigate to the project directory
 Install dependencies: npm install
 
